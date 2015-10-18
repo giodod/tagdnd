@@ -195,8 +195,8 @@ class DnDPanel(wx.Panel):
 	#print("n_start sarebbe:"+str(self.n_start))
         if self.n_start > (self.nmax-self.n_winsize) :
 		self.n_start = self.nmax - self.n_winsize
-	print("controllato:"+str(self.n_start))
-	#self.onRefreshDrops(text)
+	#print("controllato:"+str(self.n_start))
+	self.onRefreshDrops(text)
 
     #----------------------------------------------------------------------
     def Indietro(self,text):
